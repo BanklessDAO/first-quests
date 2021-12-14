@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "clearsans-Bold";
+    src: url("../src/assets/fonts/ClearSans-Bold.ttf");
+}
+.clearsans-bold{
+  font-family: "clearsans-Bold"
+}
+
+@font-face {
+    font-family: "clearsans-Regular";
+    src: url("../src/assets/fonts/ClearSans-Regular.ttf");
+}
+.clearsans-regular{
+  font-family: "clearsans-Regular"
+}
+
