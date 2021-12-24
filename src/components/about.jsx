@@ -51,7 +51,7 @@ export default function White() {
                   potential, instead of dragging you down.
                 </p>
               </div>
-              <div>
+              <div className="mb-64 md:mb-0">
                 <h1 className="text-4xl mt-5 clearsans-bold ">Collaborative</h1>
                 <p className="text-lg mt-5 clearsans-regular ">
                   The BanklessDAO community is collaborative at our core. We
