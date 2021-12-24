@@ -3,7 +3,6 @@ import banklessLogo from "../assets/images/nav-bars/banklesslogo.png";
 import mediumLogo from "../assets/images/nav-bars/medium-logo.png";
 import discordLogo from "../assets/images/nav-bars/discord-logo.png";
 import twitterLogo from "../assets/images/nav-bars/twitter-logo.png";
-import githubLogo from "../assets/images/nav-bars/github-logo.png";
 
 export default function Footer() {
   return (
@@ -15,24 +14,21 @@ export default function Footer() {
         <div className="text-white flex items-center hidden lg:inline-flex">
           ©2021 Bankless Dao
         </div>
-        <div className="flex h-24">
+        <div className="flex w-24 h-auto justify-center md:h-24">
           <img src={daoLogo} alt="" />
 
           <img src={banklessLogo} alt="" />
         </div>
 
-        <div className="flex items-center gap-4 hidden lg:inline-flex">
+        <div className="flex items-center gap-6 hidden lg:inline-flex">
           <a href="/" target="_blank">
-            <img src={mediumLogo} alt="" />
+            <img src={mediumLogo} alt="" className="w-8 h-8 object-cover" />
           </a>
           <a href="/" target="_blank">
-            <img src={discordLogo} alt="" />
+            <img src={discordLogo} alt="" className="w-8 h-8 object-cover" />
           </a>
           <a href="/" target="_blank">
-            <img src={twitterLogo} alt="" />
-          </a>
-          <a href="/" target="_blank">
-            <img src={githubLogo} alt="" />
+            <img src={twitterLogo} alt="" className="w-6 h-6 object-cover" />
           </a>
         </div>
       </footer>

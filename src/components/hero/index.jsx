@@ -11,10 +11,13 @@ export default function Hero() {
 
       <div className="w-full flex items-center justify-center bg-black">
         <div
-          style={{ maxWidth: "80rem" }}
-          className="w-full px-8 sm:px-10 text-white flex gap-y-10 lg:gap-y-0 flex-col-reverse items-center pt-5 md:flex-row justify-around"
+          style={{ maxWidth: "62rem"}}
+          className="w-full h-max flex flex-col items-center lg:mx-24 xl:mx-0 md:flex-row-reverse justify-between lg:gap-y-0 px-10 lg:px-0 pt-8 text-white"
         >
-          <div className="lg:flex flex-col gap-y-6">
+          <div className="h-auto">
+            <img className="" src={poap} alt="" />
+          </div>
+          <div className="flex justify-center mt-10 lg:flex flex-col gap-2">
             <h1 className="text-2xl xl:text-3xl mb-2 clearsans-bold">
               First Steps into Web3 <br className="hidden md:block" /> and
               Financial Independence.
@@ -25,9 +28,6 @@ export default function Hero() {
               will onboard
               <br className="hidden md:block" /> you into the bankless Dao.
             </p>
-          </div>
-          <div>
-            <img className="" src={poap} alt="" />
           </div>
         </div>
       </div>

@@ -55,7 +55,7 @@ export default function White() {
                   voluptatibus molestias laborum minima assumenda? Animi{" "}
                 </p>
               </div>
-              <div>
+              <div className="mb-52">
                 <h1 className="text-4xl mt-5 clearsans-bold ">Collaborative</h1>
                 <p className="text-lg mt-5 clearsans-regular ">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
@@ -81,13 +81,15 @@ export default function White() {
               <h1 className="text-4xl mt-5 clearsans-bold text-white ">
                 START YOUR FIRST QUEST
               </h1>
-              <p className="text-lg mt-5 clearsans-regular text-white">
+              <p className="text-lg mt-2 clearsans-regular text-white">
                 and begin your journey into Web3, Defi, <br /> and Financial
                 independence with the <br /> Bankless Dao.
               </p>
-              <button className="w-max clearsans-bold text-black text-2xl bg-white p-4 rounded-2xl mt-5">
-                BEGIN QUEST
-              </button>
+              <a href="https://discord.com/invite/bankless" target="_blank" rel="noreferrer">
+                <button className="w-max clearsans-bold text-black text-xl bg-white p-4 px-8 rounded-2xl mt-14">
+                  BEGIN QUEST
+                </button>
+              </a>
             </div>
           </div>
         </div>
