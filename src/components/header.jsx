@@ -1,6 +1,6 @@
 import daoLogo from "../assets/images/nav-bars/dao-logo.png";
 import banklessLogo from "../assets/images/nav-bars/banklesslogo.png";
-import mediumLogo from "../assets/images/nav-bars/medium-logo.png";
+import notionLogo from "../assets/images/nav-bars/notion-logo.png";
 import discordLogo from "../assets/images/nav-bars/discord-logo.png";
 import twitterLogo from "../assets/images/nav-bars/twitter-logo.png";
 
@@ -8,11 +8,16 @@ export default function Header() {
   return (
     <div>
       <header className="p-6 pt-3 pb-0 lg:pt-0 flex xl:px-24 h-max lg:h-40 bg-black w-full flex items-center justify-between">
-        <div className="w-24 h-auto flex gap-4">
+        <a
+          href="https://www.bankless.community/"
+          target="_blank"
+          rel="noreferrer"
+          className="w-24 h-auto flex gap-4"
+        >
           <img src={daoLogo} alt="" />
 
           <img className="hidden md:block" src={banklessLogo} alt="" />
-        </div>
+        </a>
 
         {/* <div className="lg:hidden">
           <button
@@ -30,9 +35,7 @@ export default function Header() {
           >
             Connect Wallet
           </button> */}
-          <a href="/" target="_blank">
-            <img src={mediumLogo} alt="" className="w-8 h-8 object-cover" />
-          </a>
+
           <a
             href="https://discord.com/invite/bankless"
             target="_blank"
@@ -46,6 +49,14 @@ export default function Header() {
             rel="noreferrer"
           >
             <img src={twitterLogo} alt="" className="w-6 h-6 object-cover" />
+          </a>
+          <a href="/" target="_blank">
+            <img
+              src={notionLogo}
+              alt=""
+              style={{ width: "1.8rem" }}
+              className="object-cover"
+            />
           </a>
         </div>
       </header>

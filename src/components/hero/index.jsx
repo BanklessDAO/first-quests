@@ -1,8 +1,8 @@
 import CTAs from "./ctas";
 import Header from "../header";
 import poap from "../../assets/images/hero/poap.png";
-import daoIndex from "../../assets/images/hero/dao-index.png"
-import banklessIndex from "../../assets/images/hero/bankless-index.png"
+import daoIndex from "../../assets/images/hero/dao-index.png";
+import banklessIndex from "../../assets/images/hero/bankless-index.png";
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
 
       <div className="w-full flex items-center justify-center bg-black">
         <div
-          style={{ maxWidth: "62rem"}}
+          style={{ maxWidth: "62rem" }}
           className="w-full h-max flex flex-col items-center lg:mx-24 xl:mx-0 md:flex-row-reverse justify-between lg:gap-y-0 px-10 lg:px-0 pt-8 text-white"
         >
           <div className="h-auto">
@@ -51,18 +51,16 @@ export default function Hero() {
               into the Defi fold.
             </p>
           </div>
-          <div className="flex flex-row gap-x-2 items-center justify-center">
-            <img
-              src={daoIndex}
-              alt=""
-            />
+          <a
+            href="https://www.bankless.community/"
+            target="_blank"
+            rel="noreferrer"
+            className="flex flex-row gap-x-2 items-center justify-center"
+          >
+            <img src={daoIndex} alt="" />
             <h1 className="text-white text-3xl clearsans-bold">by</h1>
-            <img
-              className="w-2/4"
-              src={banklessIndex}
-              alt=""
-            />
-          </div>
+            <img className="w-2/4" src={banklessIndex} alt="" />
+          </a>
         </div>
       </div>
     </div>
