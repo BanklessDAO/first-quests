@@ -50,7 +50,10 @@ export default function Header() {
           >
             <img src={twitterLogo} alt="" className="w-6 h-6 object-cover" />
           </a>
-          <a href="/" target="_blank">
+          <a
+            href="https://bankless.notion.site/Getting-Started-with-Bankless-814cdac321104ad9897cbbd246153a38"
+            target="_blank"
+          >
             <img
               src={notionLogo}
               alt=""
