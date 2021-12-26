@@ -53,6 +53,7 @@ export default function Header() {
           <a
             href="https://bankless.notion.site/Getting-Started-with-Bankless-814cdac321104ad9897cbbd246153a38"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={notionLogo}
