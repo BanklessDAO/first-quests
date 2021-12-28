@@ -28,11 +28,7 @@ export default function White() {
                   next steps into your new life. 
                 </p>
                 <div className="flex justify-center mt-10">
-                  <img
-                    className="w-full"
-                    src={poap}
-                    alt=""
-                  />
+                  <img className="w-full" src={poap} alt="" />
                 </div>
               </div>
             </div>
@@ -55,7 +51,7 @@ export default function White() {
                   that unlock your life and potential, instead of dragging you down.{" "}
                 </p>
               </div>
-              <div>
+              <div className="mb-64 md:mb-0">
                 <h1 className="text-4xl mt-5 clearsans-bold ">Collaborative</h1>
                 <p className="text-lg mt-5 clearsans-regular ">
                   The BanklessDAO community is collaborative at our core.
@@ -69,7 +65,7 @@ export default function White() {
         </div>
         <div
           style={{
-            backgroundImage:`url("${waves}")`
+            backgroundImage: `url("${waves}")`,
           }}
           className="w-full flex justify-center md:justify-center pt-72 sm:pt-60 2xl:pt-96 pb-20 bg-cover" // md:px-16 xl:px-36 2xl:px-72
         >
@@ -81,13 +77,19 @@ export default function White() {
               <h1 className="text-4xl mt-5 clearsans-bold text-white ">
                 START YOUR FIRST QUEST
               </h1>
-              <p className="text-lg mt-5 clearsans-regular text-white">
+              <p className="text-lg mt-2 clearsans-regular text-white">
                 and begin your journey into Web3, Defi, <br /> and Financial
                 independence with the <br /> Bankless Dao.
               </p>
-              <button className="w-max clearsans-bold text-black text-2xl bg-white p-4 rounded-2xl mt-5">
-                BEGIN QUEST
-              </button>
+              <a
+                href="https://discord.com/invite/bankless"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="w-max clearsans-bold text-black text-xl bg-white p-4 px-8 rounded-2xl mt-14">
+                  BEGIN QUEST
+                </button>
+              </a>
             </div>
           </div>
         </div>

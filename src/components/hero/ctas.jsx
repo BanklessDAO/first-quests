@@ -39,12 +39,14 @@ export default function CTAs() {
               <h1> {cta.title} </h1>
             </div>
             <p className="text- mt-5 clearsans-thin">{cta.description}</p>
-            <button
-              style={{ backgroundColor: "#ff3131" }}
-              className="w-full h-10 text-black clearsans-regular text-lg rounded-lg mt-12"
-            >
-              {cta.ctaLabel}
-            </button>
+            <a href="https://discord.com/invite/bankless" target="_blank" rel="noreferrer">
+              <button
+                style={{ backgroundColor: "#ff3131" }}
+                className="w-full h-10 text-black clearsans-regular text-lg rounded-lg mt-8"
+              >
+                {cta.ctaLabel}
+              </button>
+            </a>
           </div>
         ))}
       </div>

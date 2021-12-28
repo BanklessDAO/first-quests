@@ -1,9 +1,8 @@
 import daoLogo from "../assets/images/nav-bars/dao-logo.png";
 import banklessLogo from "../assets/images/nav-bars/banklesslogo.png";
-import mediumLogo from "../assets/images/nav-bars/medium-logo.png";
+import notionLogo from "../assets/images/nav-bars/notion-logo.png";
 import discordLogo from "../assets/images/nav-bars/discord-logo.png";
 import twitterLogo from "../assets/images/nav-bars/twitter-logo.png";
-import githubLogo from "../assets/images/nav-bars/github-logo.png";
 
 export default function Footer() {
   return (
@@ -15,24 +14,43 @@ export default function Footer() {
         <div className="text-white flex items-center hidden lg:inline-flex">
           ©2021 Bankless Dao
         </div>
-        <div className="flex h-24">
+        <a
+          href="https://www.bankless.community/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex w-24 h-auto justify-center md:h-24"
+        >
           <img src={daoLogo} alt="" />
 
           <img src={banklessLogo} alt="" />
-        </div>
+        </a>
 
-        <div className="flex items-center gap-4 hidden lg:inline-flex">
-          <a href="/" target="_blank">
-            <img src={mediumLogo} alt="" />
+        <div className="flex items-center gap-6 hidden lg:inline-flex">
+          <a
+            href="https://discord.com/invite/bankless"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={discordLogo} alt="" className="w-8 h-8 object-cover" />
           </a>
-          <a href="/" target="_blank">
-            <img src={discordLogo} alt="" />
+          <a
+            href="https://twitter.com/banklessDAO"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={twitterLogo} alt="" className="w-6 h-6 object-cover" />
           </a>
-          <a href="/" target="_blank">
-            <img src={twitterLogo} alt="" />
-          </a>
-          <a href="/" target="_blank">
-            <img src={githubLogo} alt="" />
+          <a
+            href="https://bankless.notion.site/bankless/Bankless-DAO-82ba81e7da1c42adb7c4ab67a4f22e8f"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={notionLogo}
+              alt=""
+              style={{ width: "1.8rem" }}
+              className="object-cover"
+            />
           </a>
         </div>
       </footer>
